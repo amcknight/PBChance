@@ -51,7 +51,7 @@ namespace PBChance.UI.Components
         public PBChanceComponent(LiveSplitState state)
         {
             State = state;
-            InternalComponent = new InfoTextComponent("PB Chance                   .", "0.0%")
+            InternalComponent = new InfoTextComponent("PB Chance", "0.0%")
             {
                 AlternateNameText = new string[]
                 {
